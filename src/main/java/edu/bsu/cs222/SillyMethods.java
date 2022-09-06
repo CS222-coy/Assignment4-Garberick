@@ -1,7 +1,5 @@
 package edu.bsu.cs222;
 
-import java.util.Scanner;
-
 public class SillyMethods {
 
     public boolean didGuess42(int i) {
