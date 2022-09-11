@@ -32,4 +32,18 @@ public class SillyMethodsTest {
         String result = sillyMethods.countTo(15);
         Assertions.assertEquals(result, "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15");
     }
+
+    @Test
+    public void testIsEven4(){
+        SillyMethods sillyMethods = new SillyMethods();
+        boolean result = sillyMethods.isEven(4);
+        Assertions.assertTrue(result);
+    }
+
+    @Test
+    public void testIsEven5(){
+        SillyMethods sillyMethods = new SillyMethods();
+        boolean result = sillyMethods.isEven(5);
+        Assertions.assertFalse(result);
+    }
 }

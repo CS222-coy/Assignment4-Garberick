@@ -18,4 +18,8 @@ public class SillyMethods {
         }
         return countString.toString();
     }
+
+    public boolean isEven(int possiblyEvenNumber) {
+        return possiblyEvenNumber % 2 == 0;
+    }
 }
